@@ -10,7 +10,7 @@ export default function SearchBox({updateInfo}) {
     const getWeatherInfo = async () => {
         try {
             const response = await fetch(
-                `http://localhost:5000/weather?city=${encodeURIComponent(city.trim())}`
+                `https://weather-app-buzn.onrender.com/weather?city=${encodeURIComponent(city.trim())}`
             );
             const jsonResponse = await response.json();
             if (!response.ok || jsonResponse.error ) {
