@@ -1,0 +1,65 @@
+
+.brand-name{
+   font-size: clamp(32px, 6vw, 68px);  /* responsive font */
+    margin-right: 0;                    /* remove fixed margin */
+}
+.content_header{
+    display: flex;
+    justify-content: center;    /* vertical alignment */
+    gap: 1rem;               /* spacing between items */
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+    flex-wrap: wrap;
+   
+
+}
+.Card {
+    width: 100%;
+    max-width: 350px;
+    border-radius: 30px;
+    box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.3);
+}
+.Card:hover{
+    box-shadow:8px 18px 12px rgba(0, 0, 0, 0.3);
+}
+.card-container {
+    display: flex;
+    justify-content: center;
+    padding: 0 1rem;   /*  adds spacing on small screens */
+}
+@media (min-width: 768px) {
+    .Card {
+        max-width: 450px;
+    }
+}
+.Card:hover{
+    box-shadow:8px 18px 12px rgba(0, 0, 0, 0.3);
+}
+.disclaimer{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    padding: 0 1rem;      
+    text-align: center;
+}
+
+.App {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.main-content {
+    flex: 1;   
+}
+@media (min-width: 768px) {
+    .content_header {
+        margin-bottom: 3rem;
+    }
+}
+
+/* Large screens */
+@media (min-width: 1024px) {
+    .content_header {
+        margin-bottom: 5rem;   /* 🔥 more breathing space */
+    }
+}
