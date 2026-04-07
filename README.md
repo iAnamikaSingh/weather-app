@@ -20,7 +20,7 @@ Material UI
 Express.js
 Node.js
 
-### Other tools  ☁️⛅
+### Other tools 
 OpenWeather API
 Vercel (Frontend Deployment)
 Render (Backend Deployment)
