@@ -38,6 +38,7 @@ export default function ButtonAppBar() {
             href="https://openweathermap.org/"
             target="_blank"
             sx={{ fontSize: { xs: "0.8rem", sm: "1rem" } }}
+            rel="noopener noreferrer"
           >
             API Used
           </Button>

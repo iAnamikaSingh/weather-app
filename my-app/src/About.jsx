@@ -1,4 +1,6 @@
-import { Box, Typography, Card, CardContent } from "@mui/material";
+import { Box, Typography, Card, CardContent, IconButton} from "@mui/material";
+import GitHubIcon from "@mui/icons-material/GitHub";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
 
 export default function About() {
   return (
@@ -86,6 +88,27 @@ export default function About() {
             using React, Vite, Material UI, Node.js and Express.js as part of my learning
             journey.
           </Typography>
+          <div>
+      <IconButton
+        component="a"
+        href="https://github.com/iAnamikaSingh"
+        target="_blank"
+        rel="noopener noreferrer"
+        sx= {{color: "#d81919"}}
+      >
+        <GitHubIcon />
+      </IconButton>
+
+      <IconButton
+        component="a"
+        href="https://www.linkedin.com/in/ianamikasingh/"
+        target="_blank"
+        rel="noopener noreferrer"
+        sx= {{color: "#d81919"}}
+      >
+        <LinkedInIcon />
+      </IconButton>
+    </div>
         </CardContent>
       </Card>
     </Box>

@@ -72,7 +72,7 @@ export default function WeatherApp () {
             </div>
             <About/>
             <div className="disclaimer">
-                <Typography variant="caption" color="text.secondary">Disclaimer: This application relies on third-party data from <a href="https://openweathermap.org/">OpenWeather</a>. The accuracy and reliability of weather information are not guaranteed.</Typography>
+                <Typography variant="caption" color="text.secondary">Disclaimer: This application relies on third-party data from <a href="https://openweathermap.org/" rel="noopener noreferrer">OpenWeather</a>. The accuracy and reliability of weather information are not guaranteed.</Typography>
             </div>
             
         </div>
