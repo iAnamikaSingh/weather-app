@@ -17,7 +17,7 @@ export default function WeatherApp () {
     const fetchDelhiWeather = async () => {
         try {
             const response = await fetch(
-                `https://weather-app-buzn.onrender.com/weather?city=${encodeURIComponent("Delhi".trim())}`
+                `https://weather-app-zu3m.onrender.com/weather?city=${encodeURIComponent("Delhi".trim())}`
             );
 
             const data = await response.json();

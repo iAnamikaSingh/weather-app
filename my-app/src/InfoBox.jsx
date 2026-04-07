@@ -38,7 +38,7 @@ export default function InfoBox ({info}) {
                         md: "16px" 
             } }}> The current weather condition of <b>{info.name}</b> is <b>{info.desc}</b>. <br></br>
             The temperature is <b>{info.temp}°C</b> but it feels like <b>{info.feels_like}°C</b>.<br></br> 
-            Humidity is around <b>{info.humidity}%</b>, with a high of <b>{info.max_temp}°C</b> 
+            Humidity is around <b>{info.humidity}%</b>, with a high of <b>{info.max_temp}°C </b> 
             and a low of <b>{info.min_temp}°C</b>.</Typography>    
             </CardContent> 
             </Card>
