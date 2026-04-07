@@ -7,7 +7,7 @@ const app = express();
 //Middleware — must match the browser Origin header exactly (no trailing slash)
 app.use(
     cors({
-        origin: ["https://weather-app-mu-two-31.vercel.app/"],
+        origin: ["https://weather-app-mu-two-31.vercel.app"],
     })
 );
 app.use(express.json());
